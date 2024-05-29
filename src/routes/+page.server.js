@@ -68,8 +68,8 @@ export const actions = {
       }
     }
     const obj = Object.fromEntries(jsonVals);
-    const json = JSON.stringify(obj);
-    console.log(json);
+    const final_json = JSON.stringify(obj);
+    console.log(final_json);
     return {
       success: true,
       data,
