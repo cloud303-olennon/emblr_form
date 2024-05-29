@@ -6,6 +6,7 @@ export function load() {
       field: data.field,
       desc: data.desc,
       type: data.type,
+      limit: data.limit,
       objects: data.objects,
     })),
   };

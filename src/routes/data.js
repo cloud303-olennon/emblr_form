@@ -12,6 +12,7 @@ export const data = [
     field: "gus's thing",
     desc: "object array stuff",
     type: "object_array",
+    limit: 5,
     objects: [
       {
         field: "test value",
